@@ -41,7 +41,7 @@ pub const ANSI_COLOR_ERR: &str = concatcp!(ANSI_BRIGHT, ANSI_FG_RED);
 pub const ANSI_COLOR_CRIT: &str = concatcp!(ANSI_BRIGHT, ANSI_FG_BLACK, ANSI_BG_RED);
 
 // color definitions for goodrate
-pub const GOODRATE_COLOR_POOL: &str = concatcp!(ANSI_BRIGHT, ANSI_FG_CYAN);
+pub const GOODRATE_COLOR_POOL: &str = concatcp!(ANSI_FG_BLACK, ANSI_BG_CYAN);
 pub const GOODRATE_COLOR_PERCENT_0_50: &str = ANSI_FG_RED;
 pub const GOODRATE_COLOR_PERCENT_50_75: &str = concatcp!(ANSI_BRIGHT, ANSI_FG_YELLOW);
 pub const GOODRATE_COLOR_PERCENT_75_100: &str = ANSI_FG_GREEN;
