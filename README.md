@@ -16,4 +16,8 @@ For starting the filter, specify the original mining program as the first progra
 
 (instead of `pkt1xxx`, use your wallet address)
 
-The shell script `miner-simulation` outputs some simulated miner lines on stderr to demonstrate how the filter works. If you run the script `miner-simulation`, you'll see the unmodified output. If you start it with the pktannfilter (you can use the `test` script for it), then you can see how the output is modified.
+The shell script `miner-simulation` outputs some simulated miner lines on stderr to demonstrate how the filter works. If you run the script `miner-simulation`, you'll see the unmodified output. If you start it with the pktannfilter (you can use the `test` script for it), you can see how the output is modified.
+
+Example output of the test script:
+
+![example](example.png)
