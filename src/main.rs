@@ -4,6 +4,8 @@ use std::process::{Child, Command, Stdio};
 use std::sync::Arc;
 use std::thread::{spawn, JoinHandle};
 use std::{env, process};
+#[cfg(target_os="windows")]
+use ansi_term;
 
 // standard ANSI escape codes
 pub const ANSI_RESET: &str = "\x1b[0m";
@@ -154,6 +156,9 @@ fn filter_channels(child: &mut Child, pools: Arc<Vec<String>>) {
 }
 
 fn main() {
+    #[cfg(target_os="windows")]
+    ansi_term::enable_ansi_support();
+
     // get command line arguments
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {

@@ -20,4 +20,10 @@ The shell script `miner-simulation` outputs some simulated miner lines on stderr
 
 Example output of the test script:
 
-![example](example.png)
+![example](example-linux.png)
+
+On Mac, the default Terminal program has no bright yellow color, but because of the default white background, the darker yellow color is better anyway. It looks like this:
+
+![example](example-mac.png)
+
+With a modern terminal like [Alacritty](https://github.com/alacritty/alacritty), it looks the same as on Linux. On Windows, it looks like on Linux with the standard cmd.exe Command Prompt, and in PowerShell.

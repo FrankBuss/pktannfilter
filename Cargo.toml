@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 const_format = "0.2"
+ansi_term = "0.12"

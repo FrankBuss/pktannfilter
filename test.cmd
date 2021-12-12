@@ -1,0 +1,1 @@
+target\release\pktannfilter miner-simulation.cmd ann http://pool.pktpool.io http://pool.pkt.world http://pool.srizbi.com http://pool.pkteer.com http://pktco.in --paymentaddr pkt1q0p6s9yzf3506zlkzgrnctujya5zhng3haw96sl
