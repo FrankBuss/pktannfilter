@@ -157,7 +157,7 @@ fn filter_channels(child: &mut Child, pools: Arc<Vec<String>>) {
 
 fn main() {
     #[cfg(target_os="windows")]
-    ansi_term::enable_ansi_support();
+    ansi_term::enable_ansi_support().unwrap();
 
     // get command line arguments
     let args: Vec<String> = env::args().collect();
