@@ -11,7 +11,7 @@ First install Rust, e.g. from https://rustup.rs. Then you can build the program 
 For starting the filter, specify the original mining program as the first program argument, and then the other parameters for the mining program itself as usual. For example:
 
 ```
-./release/pktannfilter ../packetcrypt_rs/target/release/packetcrypt ann 'http://pool.pktpool.io' 'http://pool.pkt.world'  --paymentaddr pkt1xxx`
+./target/release/pktannfilter ../packetcrypt_rs/target/release/packetcrypt ann 'http://pool.pktpool.io' 'http://pool.pkt.world'  --paymentaddr pkt1xxx`
 ```
 
 (instead of `pkt1xxx`, use your wallet address)
